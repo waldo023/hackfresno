@@ -49,3 +49,35 @@ i.fas.fa-dog{
   color:#c1edcc;
 
 }
+
+#feed{
+  margin-top:10px;
+}
+
+#feed section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.feedInfo{
+  padding: 5px;
+  width: 40vw;
+  border:1px solid black;
+  border-radius: 3px;
+  margin: 5px 20px;
+}
+.posterInfo{
+  display: flex;
+}
+.posterInfo img{
+  width: 20%;
+  border-radius: 100%;
+  margin-right: 10px;
+
+}
+
+.post img{
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 3px;
+}
