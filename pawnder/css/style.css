@@ -1,7 +1,24 @@
-div.orange{
-
+.side-nav{
+  position: absolute;
+  width: 25vw;
+  height: 100vh;
+  top:0;
+  left: -1000px;
+  background-color:#d1ccdc;
+  padding: 10px;
 }
-
-div.white{
-  
+.side-nav.active{
+  left:0px;
+}
+.side-nav ul{
+  list-style: none;
+  padding: 0;
+}
+.side-nav ul li{
+  border-bottom:1px solid #5f737e;
+  padding:10px 0px;
+}
+.side-nav ul li a{
+  text-decoration: none;
+  color:black;
 }
