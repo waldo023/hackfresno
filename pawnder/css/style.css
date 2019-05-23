@@ -1,6 +1,8 @@
 body{
   padding: 0;
   margin: 0;
+  background-color: #FAF7FF;
+  text-decoration-color: #5B4B49;
 }
 
 .side-nav{
@@ -28,7 +30,7 @@ body{
   color:black;
 }
 .side-nav input{
-  border:none;
+  border: none;
   border-radius: 2px;
   height: 25px;
   width: 100%;
@@ -47,5 +49,18 @@ div.main-top{
 i.fas.fa-dog{
   font-size: 50px;
   color:#c1edcc;
-
+}
+#section-search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+#section-search button{
+  padding: 20px;
+  background-color: #C1EDCC;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
 }
